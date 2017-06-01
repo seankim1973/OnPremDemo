@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="DemoOnPrem suite" duration-ms="65539" started-at="2017-06-01T18:02:30Z" finished-at="2017-06-01T18:03:36Z">
+    <groups>
+    </groups>
+    <test name="WIN81_Firefox_TestCases" duration-ms="23384" started-at="2017-06-01T18:02:30Z" finished-at="2017-06-01T18:02:53Z">
+      <class name="testScripts.SmokeTests_OnPrem">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testScripts.SmokeTests_OnPrem@cc285f4]" name="beforeTest" is-config="true" duration-ms="11240" started-at="2017-06-01T13:02:30Z" finished-at="2017-06-01T13:02:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[WIN8_1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://192.168.1.65:4444/wd/hub]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testScripts.SmokeTests_OnPrem@cc285f4]" name="beforeClass" is-config="true" duration-ms="1" started-at="2017-06-01T13:02:41Z" finished-at="2017-06-01T13:02:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="performSearchGetMemberCount()[pri:0, instance:testScripts.SmokeTests_OnPrem@cc285f4]" name="performSearchGetMemberCount" duration-ms="4351" started-at="2017-06-01T13:02:41Z" finished-at="2017-06-01T13:02:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performSearchGetMemberCount -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testScripts.SmokeTests_OnPrem@cc285f4]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-06-01T13:02:41Z" finished-at="2017-06-01T13:02:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.SmokeTests_OnPrem.performSearchGetMemberCount() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testScripts.SmokeTests_OnPrem@cc285f4]" name="afterMethod" is-config="true" duration-ms="1801" started-at="2017-06-01T13:02:46Z" finished-at="2017-06-01T13:02:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=performSearchGetMemberCount status=SUCCESS method=SmokeTests_OnPrem.performSearchGetMemberCount()[pri:0, instance:testScripts.SmokeTests_OnPrem@cc285f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testScripts.SmokeTests_OnPrem@cc285f4]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-06-01T13:02:47Z" finished-at="2017-06-01T13:02:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.SmokeTests_OnPrem.getMemberNameTitle() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="getMemberNameTitle()[pri:0, instance:testScripts.SmokeTests_OnPrem@cc285f4]" name="getMemberNameTitle" duration-ms="4171" started-at="2017-06-01T13:02:47Z" finished-at="2017-06-01T13:02:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMemberNameTitle -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testScripts.SmokeTests_OnPrem@cc285f4]" name="afterMethod" is-config="true" duration-ms="1604" started-at="2017-06-01T13:02:52Z" finished-at="2017-06-01T13:02:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getMemberNameTitle status=SUCCESS method=SmokeTests_OnPrem.getMemberNameTitle()[pri:0, instance:testScripts.SmokeTests_OnPrem@cc285f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testScripts.SmokeTests_OnPrem@cc285f4]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-06-01T13:02:53Z" finished-at="2017-06-01T13:02:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testScripts.SmokeTests_OnPrem@cc285f4]" name="afterTest" is-config="true" duration-ms="202" started-at="2017-06-01T13:02:53Z" finished-at="2017-06-01T13:02:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testScripts.SmokeTests_OnPrem -->
+    </test> <!-- WIN81_Firefox_TestCases -->
+    <test name="WIN81_Chrome_TestCases" duration-ms="23961" started-at="2017-06-01T18:02:53Z" finished-at="2017-06-01T18:03:17Z">
+      <class name="testScripts.SmokeTests_OnPrem">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testScripts.SmokeTests_OnPrem@27efef64]" name="beforeTest" is-config="true" duration-ms="11869" started-at="2017-06-01T13:02:53Z" finished-at="2017-06-01T13:03:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[WIN8_1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://192.168.1.65:4444/wd/hub]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="performSearchGetMemberCount()[pri:0, instance:testScripts.SmokeTests_OnPrem@27efef64]" name="performSearchGetMemberCount" duration-ms="2252" started-at="2017-06-01T13:03:05Z" finished-at="2017-06-01T13:03:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performSearchGetMemberCount -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testScripts.SmokeTests_OnPrem@27efef64]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-06-01T13:03:05Z" finished-at="2017-06-01T13:03:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testScripts.SmokeTests_OnPrem@27efef64]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-06-01T13:03:05Z" finished-at="2017-06-01T13:03:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.SmokeTests_OnPrem.performSearchGetMemberCount() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testScripts.SmokeTests_OnPrem@27efef64]" name="afterMethod" is-config="true" duration-ms="1892" started-at="2017-06-01T13:03:08Z" finished-at="2017-06-01T13:03:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=performSearchGetMemberCount status=SUCCESS method=SmokeTests_OnPrem.performSearchGetMemberCount()[pri:0, instance:testScripts.SmokeTests_OnPrem@27efef64] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testScripts.SmokeTests_OnPrem@27efef64]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-06-01T13:03:09Z" finished-at="2017-06-01T13:03:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.SmokeTests_OnPrem.getMemberNameTitle() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="getMemberNameTitle()[pri:0, instance:testScripts.SmokeTests_OnPrem@27efef64]" name="getMemberNameTitle" duration-ms="3133" started-at="2017-06-01T13:03:09Z" finished-at="2017-06-01T13:03:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMemberNameTitle -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testScripts.SmokeTests_OnPrem@27efef64]" name="afterMethod" is-config="true" duration-ms="2178" started-at="2017-06-01T13:03:13Z" finished-at="2017-06-01T13:03:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getMemberNameTitle status=SUCCESS method=SmokeTests_OnPrem.getMemberNameTitle()[pri:0, instance:testScripts.SmokeTests_OnPrem@27efef64] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testScripts.SmokeTests_OnPrem@27efef64]" name="afterClass" is-config="true" duration-ms="1" started-at="2017-06-01T13:03:15Z" finished-at="2017-06-01T13:03:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testScripts.SmokeTests_OnPrem@27efef64]" name="afterTest" is-config="true" duration-ms="2632" started-at="2017-06-01T13:03:15Z" finished-at="2017-06-01T13:03:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testScripts.SmokeTests_OnPrem -->
+    </test> <!-- WIN81_Chrome_TestCases -->
+    <test name="WIN81_MicrosoftEdge_TestCases" duration-ms="18075" started-at="2017-06-01T18:03:17Z" finished-at="2017-06-01T18:03:36Z">
+      <class name="testScripts.SmokeTests_OnPrem">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testScripts.SmokeTests_OnPrem@42d80b78]" name="beforeTest" is-config="true" duration-ms="6940" started-at="2017-06-01T13:03:17Z" finished-at="2017-06-01T13:03:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[WIN8_1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MicrosoftEdge]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://192.168.1.65:4444/wd/hub]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="performSearchGetMemberCount()[pri:0, instance:testScripts.SmokeTests_OnPrem@42d80b78]" name="performSearchGetMemberCount" duration-ms="2147" started-at="2017-06-01T13:03:24Z" finished-at="2017-06-01T13:03:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performSearchGetMemberCount -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testScripts.SmokeTests_OnPrem@42d80b78]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-06-01T13:03:24Z" finished-at="2017-06-01T13:03:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.SmokeTests_OnPrem.performSearchGetMemberCount() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testScripts.SmokeTests_OnPrem@42d80b78]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-06-01T13:03:24Z" finished-at="2017-06-01T13:03:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testScripts.SmokeTests_OnPrem@42d80b78]" name="afterMethod" is-config="true" duration-ms="1438" started-at="2017-06-01T13:03:27Z" finished-at="2017-06-01T13:03:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=performSearchGetMemberCount status=SUCCESS method=SmokeTests_OnPrem.performSearchGetMemberCount()[pri:0, instance:testScripts.SmokeTests_OnPrem@42d80b78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="getMemberNameTitle()[pri:0, instance:testScripts.SmokeTests_OnPrem@42d80b78]" name="getMemberNameTitle" duration-ms="3323" started-at="2017-06-01T13:03:28Z" finished-at="2017-06-01T13:03:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMemberNameTitle -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testScripts.SmokeTests_OnPrem@42d80b78]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-06-01T13:03:28Z" finished-at="2017-06-01T13:03:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.SmokeTests_OnPrem.getMemberNameTitle() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testScripts.SmokeTests_OnPrem@42d80b78]" name="afterMethod" is-config="true" duration-ms="1789" started-at="2017-06-01T13:03:31Z" finished-at="2017-06-01T13:03:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getMemberNameTitle status=SUCCESS method=SmokeTests_OnPrem.getMemberNameTitle()[pri:0, instance:testScripts.SmokeTests_OnPrem@42d80b78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testScripts.SmokeTests_OnPrem@42d80b78]" name="afterTest" is-config="true" duration-ms="2436" started-at="2017-06-01T13:03:33Z" finished-at="2017-06-01T13:03:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testScripts.SmokeTests_OnPrem@42d80b78]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-06-01T13:03:33Z" finished-at="2017-06-01T13:03:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testScripts.SmokeTests_OnPrem@42d80b78]" name="afterSuite" is-config="true" duration-ms="886" started-at="2017-06-01T13:03:36Z" finished-at="2017-06-01T13:03:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testScripts.SmokeTests_OnPrem -->
+    </test> <!-- WIN81_MicrosoftEdge_TestCases -->
+  </suite> <!-- DemoOnPrem suite -->
+</testng-results>

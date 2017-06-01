@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [DemoOnPrem suite]" parallel="classes">
+  <parameter name="browserName" value="MicrosoftEdge"/>
+  <parameter name="remoteUrl" value="http://192.168.1.65:4444/wd/hub"/>
+  <parameter name="platform" value="WIN8_1"/>
+  <test verbose="2" name="WIN81_Firefox_TestCases">
+    <parameter name="browserName" value="firefox"/>
+    <parameter name="remoteUrl" value="http://192.168.1.65:4444/wd/hub"/>
+    <parameter name="platform" value="WIN8_1"/>
+    <classes>
+      <class name="testScripts.SmokeTests_OnPrem">
+        <methods>
+          <include name="performSearchGetMemberCount"/>
+          <include name="getMemberNameTitle"/>
+        </methods>
+      </class> <!-- testScripts.SmokeTests_OnPrem -->
+    </classes>
+  </test> <!-- WIN81_Firefox_TestCases -->
+  <test verbose="2" name="WIN81_Chrome_TestCases">
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="remoteUrl" value="http://192.168.1.65:4444/wd/hub"/>
+    <parameter name="platform" value="WIN8_1"/>
+    <classes>
+      <class name="testScripts.SmokeTests_OnPrem">
+        <methods>
+          <include name="performSearchGetMemberCount"/>
+          <include name="getMemberNameTitle"/>
+        </methods>
+      </class> <!-- testScripts.SmokeTests_OnPrem -->
+    </classes>
+  </test> <!-- WIN81_Chrome_TestCases -->
+  <test verbose="2" name="WIN81_MicrosoftEdge_TestCases">
+    <parameter name="browserName" value="MicrosoftEdge"/>
+    <parameter name="remoteUrl" value="http://192.168.1.65:4444/wd/hub"/>
+    <parameter name="platform" value="WIN8_1"/>
+    <classes>
+      <class name="testScripts.SmokeTests_OnPrem">
+        <methods>
+          <include name="performSearchGetMemberCount"/>
+          <include name="getMemberNameTitle"/>
+        </methods>
+      </class> <!-- testScripts.SmokeTests_OnPrem -->
+    </classes>
+  </test> <!-- WIN81_MicrosoftEdge_TestCases -->
+</suite> <!-- Failed suite [DemoOnPrem suite] -->
